@@ -7,6 +7,7 @@ using API.DTOs;
 using API.Extensions;
 using System.Runtime.CompilerServices;
 using Microsoft.Extensions.FileProviders;
+using API.Helpers;
 
 namespace API.Controllers
 {
@@ -24,9 +25,10 @@ namespace API.Controllers
             _photoService=photoService;        }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<MemberDto>>> GetUsers()
+        public async Task<ActionResult<PagedList<MemberDto>>> GetUsers([FromQuery]UserParams userParams)
         {
-            var users = await _userRepository.GetMembersAsync();
+            var users = await _userRepository.GetMembersAsync(userParams);
+            Response.AddPaginationHeader(new PaginationHeader(users.CurrentPage, users.PageSize, users.TotalCount, users.TotalPages));
             return Ok(users);
         }
 
