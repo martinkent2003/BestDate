@@ -13,7 +13,7 @@
       "Country": "Latvia",
       "Photos": [
         {
-          "Url": "https://randomuser.me/api/portraits/women/66.jpg",
+          "Url": "https://randomuser.me/api/portraits/women/61.jpg",
           "IsMain": true
         }
       ]
@@ -32,7 +32,7 @@
       "Country": "Rwanda",
       "Photos": [
         {
-          "Url": "https://randomuser.me/api/portraits/women/36.jpg",
+          "Url": "https://randomuser.me/api/portraits/women/32.jpg",
           "IsMain": true
         }
       ]
@@ -51,7 +51,7 @@
       "Country": "Norfolk Island",
       "Photos": [
         {
-          "Url": "https://randomuser.me/api/portraits/women/31.jpg",
+          "Url": "https://randomuser.me/api/portraits/women/12.jpg",
           "IsMain": true
         }
       ]
@@ -70,7 +70,7 @@
       "Country": "New Zealand",
       "Photos": [
         {
-          "Url": "https://randomuser.me/api/portraits/women/77.jpg",
+          "Url": "https://randomuser.me/api/portraits/women/47.jpg",
           "IsMain": true
         }
       ]
@@ -89,7 +89,7 @@
       "Country": "China",
       "Photos": [
         {
-          "Url": "https://randomuser.me/api/portraits/women/66.jpg",
+          "Url": "https://randomuser.me/api/portraits/women/28.jpg",
           "IsMain": true
         }
       ]
@@ -109,7 +109,7 @@
           "Country": "Netherlands Antilles",
           "Photos": [
             {
-              "Url": "https://randomuser.me/api/portraits/men/41.jpg",
+              "Url": "https://randomuser.me/api/portraits/men/31.jpg",
               "IsMain": true
             }
           ]
@@ -128,7 +128,7 @@
           "Country": "Mauritania",
           "Photos": [
             {
-              "Url": "https://randomuser.me/api/portraits/men/81.jpg",
+              "Url": "https://randomuser.me/api/portraits/men/61.jpg",
               "IsMain": true
             }
           ]
