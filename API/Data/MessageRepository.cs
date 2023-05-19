@@ -87,7 +87,7 @@ namespace API.Data
                     m => m.RecipientUsername == currentUserName && m.RecipientDelete == false
                     && m.SenderUsername == RecipientUserName 
                     || m.RecipientUsername == RecipientUserName && m.SenderDelete == false
-                    && m.SenderUsername == m.SenderUsername
+                    && m.SenderUsername == currentUserName
                 )
                 .OrderBy(m => m.MessageSent)
                 .ToListAsync();
